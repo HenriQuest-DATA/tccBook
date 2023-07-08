@@ -1,0 +1,29 @@
+#router-content{
+  padding-top: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+#navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  z-index: 0;
+}
+
+#navbar-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+}
+
+#navbar-content-left, #navbar-content-right{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 2em;
+  box-sizing: border-box;
+}

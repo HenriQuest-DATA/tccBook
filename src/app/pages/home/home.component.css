@@ -1,0 +1,44 @@
+#home{
+  width: 100%;
+  height: 100%;
+}
+
+#home-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100%;
+  background-image: url("src/assets/210888.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.home-column-left, .home-column-right{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-column-left-content{
+  text-align: right;
+  padding: 1em;
+}
+
+.home-column-left-content h1{
+  font-size: 3em;
+}
+.home-column-left-content p{
+  font-size: 1em;
+  line-height: 1.3em;
+  max-width: 300px;
+}
+
+.home-column-left-content button{
+  font-size: 1em;
+  line-height: 1.3em;
+  max-width: 300px;
+  font-weight: bold;
+  margin-top: 10px;
+}
